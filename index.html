@@ -1,0 +1,65 @@
+<!-- CS-5890 Final Project -->
+<!-- Michael A. Warren       -->
+<!-- mawarren24@gmail.com    -->
+<!-- A01239355               -->
+
+<!-- Joshua Kropf               -->
+<!-- josh.kropf23@gmail.com     -->
+<!-- A02063589                  -->
+
+<!-- Aashish Ghimire              -->
+<!-- mail@aashishg.com    -->
+<!-- A02316816                  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/lightbox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./scripts/lightbox.js"></script>
+    <script src="./scripts/d3_v5.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/bar_chart.js"></script>
+    <script src="./scripts/info_panel.js"></script>
+    <script src="./scripts/map.js"></script>
+    <script src="./scripts/tooltip.js"></script>
+    <script src="./scripts/topojson.min.js"></script>
+    <script src="./scripts/Key_Events.js"></script>
+
+    <!-- For better tooltips.
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script>
+        $(function() {
+          $( document ).tooltip({
+              tooltipClass: "uitooltip",
+              position: {
+              my: "left top",
+              at: "right+5 top-5"
+              }
+          });
+        });
+        </script>
+    -->
+</head>
+
+<body id="body" onload="init()">
+    <div style="background-color: #76dcdc;"><h1 style="text-align:center">The US Civil War</h1></div>
+    <div>
+        <div class="grid-container">
+            <div id="Key-Events"></div>
+            <div id="info-panel"></div>
+            <div class="charts"></div>
+        </div>
+        <div class="map"></div>
+
+    </div>
+    <div style="background-color: #76dcdc;"><h3 style="text-align:center">Data Vizualization Final Project by Michael A. Warren, Joshua Kropf and Aashish Ghimire </h3></div>
+</body>
+
+</html>
